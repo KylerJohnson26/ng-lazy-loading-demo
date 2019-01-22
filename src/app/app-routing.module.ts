@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: 'product', loadChildren: './product/product.module#ProductModule' },
-  { path: '', pathMatch: 'full', redirectTo: 'path' }
+  { path: '', component: HomeComponent }
 ];
 
 @NgModule({
