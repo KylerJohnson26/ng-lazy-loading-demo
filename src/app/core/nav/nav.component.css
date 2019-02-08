@@ -14,3 +14,16 @@
   padding: 0 10px;
   color: white;
 }
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  margin-right: 10px;
+}
