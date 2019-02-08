@@ -1,0 +1,16 @@
+.main-nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+
+.nav-btn-container a {
+  padding: 0 10px;
+  color: white;
+}
