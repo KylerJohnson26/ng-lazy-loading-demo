@@ -22,8 +22,11 @@
 .links {
   color: white;
   text-decoration: none;
+  margin:0;
+  padding: 1em;
 }
 
-button {
+.nav-button {
   margin-right: 10px;
+  padding: 0;
 }
