@@ -5,9 +5,9 @@ import { ProductComponent } from './product/product.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: 'profile', component: ProfileComponent },
-  { path: 'product', component: ProductComponent },
-  { path: '', component: HomeComponent },
+  { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
+  { path: 'product', loadChildren: './product/product.module#ProductModule' },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
 ];
 
 @NgModule({
