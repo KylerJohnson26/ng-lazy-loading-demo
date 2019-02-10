@@ -10,9 +10,6 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     ProductRoutingModule,
-  ],
-  exports: [
-    ProductComponent
   ]
 })
 export class ProductModule { }
