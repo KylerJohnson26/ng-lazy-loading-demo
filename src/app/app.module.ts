@@ -5,19 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ProfileComponent } from './profile/profile/profile.component';
-import { ProductComponent } from './product/product/product.component';
+import { ProfileModule } from './profile/profile.module';
+import { ProductModule } from './product/product.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent,
-    ProductComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CoreModule,
+    ProfileModule,
+    ProductModule,
     BrowserAnimationsModule,
   ],
   providers: [],
