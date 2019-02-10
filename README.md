@@ -1,5 +1,12 @@
 # LazyLoadingDemo
 
+This project is meant to accompany my blog post: [Why & How to Lazy Load in Angular](https://medium.com/@kylerjohnson26/why-how-to-lazy-load-in-angular-f86b987cd528)
+
+There are two branches:
+
+1. Master - CLI generated Angular app with eager loaded modules
+2. feature/lazy_loaded - Feature branch off of master in which modules are lazy loaded
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
 ## Development server
