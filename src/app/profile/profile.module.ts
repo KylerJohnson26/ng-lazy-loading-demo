@@ -8,6 +8,9 @@ import { ProfileRoutingModule } from './profile-routing.module';
   imports: [
     CommonModule,
     ProfileRoutingModule
+  ],
+  exports: [
+    ProfileComponent
   ]
 })
 export class ProfileModule { }
