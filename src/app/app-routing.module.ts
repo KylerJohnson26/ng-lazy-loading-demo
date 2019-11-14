@@ -5,8 +5,14 @@ import { ProfileComponent } from './profile/profile/profile.component';
 import { ProductComponent } from './product/product/product.component';
 
 const routes: Routes = [
-  { path: 'profile', component: ProfileComponent },
-  { path: 'product', component: ProductComponent },
+  {
+    path: 'profile', 
+    loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule)
+  },
+  {
+    path: 'product', 
+    loadChildren: () => import('./product/product.module').then(m => m.ProductModule)
+  },
   { path: '', component: HomeComponent, pathMatch: 'full' },
 ];
 
